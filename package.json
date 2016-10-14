@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LisaMacCarrigan/js-github-api"
+    "url": "git+https://github.com/LisaMacCarrigan/js-github-api.git"
   },
   "keywords": [
     "api",
@@ -33,5 +33,6 @@
     "gulp-util": "^3.0.7",
     "jshint": "^2.9.3",
     "vinyl-source-stream": "^1.1.0"
-  }
+  },
+  "dependencies": {}
 }
