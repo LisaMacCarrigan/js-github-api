@@ -7,6 +7,7 @@ Search.prototype.getUser = function(username){
   $.get('https://api.github.com/users/' + username + '?access_token=' + apiKey).then(function(response){
     console.log(response);
     $('#display-username').text(response.login);
+    $('#user-avatar').attr('src', response.avatar_url);
     $('#repo-count').text(response.public_repos + " public repositories");
     $('#no-results-for-username').text("");
   }).fail(function(error){

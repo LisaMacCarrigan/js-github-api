@@ -1,3 +1,7 @@
 #search-result-section {
   display: none;
 }
+
+#user-avatar {
+  width: 100%;
+}
