@@ -14,8 +14,6 @@ $(document).ready(function(){
     event.preventDefault();
     var username = $('#username').val();
 
-    $('#displayed-username').text(' "' + username + '"');
-    $('#search-result-section').show();
     currentSearch.getRepos(username);
 
   }); // end submit
