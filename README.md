@@ -4,7 +4,7 @@
 #
 ##### By [Lisa MacCarrigan](https://github.com/lisamaccarrigan)
 #
-![screenshot of project main page](web-app.png)
+![screenshot of project main page](img/web-app.png)
 
 ----
 ### **Description**
