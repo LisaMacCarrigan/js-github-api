@@ -20,12 +20,13 @@ This is a web application that allows a user to enter a GitHub username into a f
 ----
 ### **Setup/Installation Requirements**
 
+Link to GitHub pages site: https://lisamaccarrigan.github.io/js-github-api
 
 If editing:
 * Clone this repository: https://github.com/LisaMacCarrigan/js-github-api.git
 * OPEN project folder ('js-github-api') in Code Editor of choice
 
-Link to GitHub pages site: https://lisamaccarrigan.github.io/js-github-api
+
 ----
 
 ### **Known Bugs**
