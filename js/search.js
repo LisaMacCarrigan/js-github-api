@@ -20,10 +20,10 @@ Search.prototype.getUser = function(username){
 // Get repositories
 Search.prototype.getRepos = function(username){
   $.get('https://api.github.com/users/' + username + '/repos?access_token=' + apiKey).then(function(response){
-    $(".list-group").text("");
+    $(".display-results").text("");
     $('#username').val("");
     for (var repo = 0; repo < response.length; repo++){
-      $(".display-result").append("<tr><td>" + response[repo].name + "</td><td>" + response[repo].description + "</td><td>" + response[repo].created_at + "</td></tr>");
+      $(".display-results").append("<tr><td>" + response[repo].name + "</td><td>" + response[repo].description + "</td><td>" + response[repo].clone_url + "</td></tr>");
 
       // $(".list-group").append("<li class='list-group-item'>" + response[repo].name + " - " + response[repo].description + "</li>");
     }
