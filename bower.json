@@ -1,18 +1,17 @@
 {
-  "name": "open_weather_app",
-  "description": "a weather display app using the ope weather api",
+  "name": "js-github-api",
+  "description": "A project utilizing the GitHub API",
   "main": "index.js",
   "authors": [
-    "sam peppard - lisa maccarrigan"
+    "lisa maccarrigan"
   ],
   "license": "MIT",
   "keywords": [
     "api",
     "gulp",
-    "open",
-    "weather"
+    "github"
   ],
-  "homepage": "https://github.com/LisaMacCarrigan/open_weather_app",
+  "homepage": "https://github.com/LisaMacCarrigan/js-github-api",
   "ignore": [
     "**/.*",
     "node_modules",

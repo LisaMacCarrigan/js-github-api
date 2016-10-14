@@ -1,27 +1,26 @@
 {
-  "name": "js-openweathermap-api",
+  "name": "js-github-api",
   "version": "1.0.0",
-  "description": "a weather display app using the ope weather api",
+  "description": "A project utilizing the GitHub API",
   "main": "index.js",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LisaMacCarrigan/JS-OpenWeatherMap-API.git"
+    "url": "git+https://github.com/LisaMacCarrigan/js-github-api"
   },
   "keywords": [
     "api",
     "gulp",
-    "open",
-    "weather"
+    "open"
   ],
-  "author": "sam peppard - lisa maccarrigan",
+  "author": "lisa maccarrigan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LisaMacCarrigan/JS-OpenWeatherMap-API/issues"
+    "url": "https://github.com/LisaMacCarrigan/js-github-api/issues"
   },
-  "homepage": "https://github.com/LisaMacCarrigan/JS-OpenWeatherMap-API#readme",
+  "homepage": "https://github.com/LisaMacCarrigan/js-github-api#readme",
   "devDependencies": {
     "bower-files": "^3.14.1",
     "browser-sync": "^2.17.3",
