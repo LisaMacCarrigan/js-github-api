@@ -12,8 +12,8 @@ Search.prototype.getUser = function(username){
     $('#repo-count').text(response.public_repos + " public repositories");
     $('#no-results-for-username').text("");
   }).fail(function(error){
-    $('.display-user-info').text("");
-    $('#user-avatar').attr('src', "");
+    $('.display-user-info').hide();
+    $('#user-avatar').attr('src', 'img/octocat_sad.gif');
     $('#no-results-for-username').text("User " + error.responseJSON.message);
     $('#search-result-section').hide();
   });
