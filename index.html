@@ -12,29 +12,39 @@
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <h1 id="app-title">GitHub API</h1>
+        <h1 id="app-title">GitHub User Search</h1>
       </div>
     </nav>
     <div id="search-interface" class="container">
       <div class="row">
-        <div class="col-md-4">
-          <h3>Search for User</h3>
-          <form id="username-search-form">
-            <div class="form-group">
-              <label>
-                <input id="username" class="form-control" type="text" placeholder="Enter Username" required>
-              </label>
-              <button class="btn btn-default" id="submit-search" type="submit">Search</button>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-4">
+              <img id="github" src="img/icon.png"></img>
             </div>
-          </form>
-          <p id="no-results-for-username"></p>
-        </div>
-        <div class="col-md-8">
-          <div class="col-md-4">
-            <img id="user-avatar"></img>
+            <div class="col-md-8">
+              <h3>Quick Search</h3>
+              <form id="username-search-form">
+                <div class="form-group">
+                  <label>
+                    <input id="username" class="form-control" type="text" placeholder="Enter Username" required>
+                  </label>
+                  <button class="btn btn-default" id="submit-search" type="submit">Search</button>
+                </div>
+              </form>
+              <p id="no-results-for-username"></p>
+            </div>
           </div>
-          <div class="col-md-8">
-            <h4 id="display-username"></h4>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-4">
+              <img id="user-avatar" class="img-circle"></img>
+            </div>
+            <div class="col-md-8 display-user-info">
+              <h3>GitHub User</h3>
+              <h4 id="display-username"></h4>
+            </div>
           </div>
         </div>
       </div>

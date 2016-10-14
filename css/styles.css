@@ -1,9 +1,21 @@
+h3 {
+  font-weight: bold;
+}
+
 #search-result-section {
   display: none;
 }
 
 #user-avatar {
   height: 150px;
+}
+
+#github {
+  height: 150px;
+}
+
+.display-user-info {
+  display: none;
 }
 
 #display-username {
