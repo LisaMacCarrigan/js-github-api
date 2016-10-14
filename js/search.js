@@ -23,7 +23,7 @@ Search.prototype.getRepos = function(username){
     $(".display-results").text("");
     $('#username').val("");
     for (var repo = 0; repo < response.length; repo++){
-      $(".display-results").append("<tr><td><a href='" + response[repo].html_url + "'target='_blank'>" + response[repo].name + "</a></td><td>" + response[repo].description + "</td><td>" + response[repo].clone_url + "</td></tr>");
+      $(".display-results").append("<tr><td><a href='" + response[repo].html_url + "'target='_blank'>" + response[repo].name + "</a></td><td>" + response[repo].description + "</td><td>" + response[repo].language + "</td></tr>");
     }
 
 
