@@ -11,8 +11,8 @@
       <h1>GitHub API</h1>
       <hr>
       <div class="row">
-        <div class="col-md-12">
-          <h3>Search for GitHub User:</h3>
+        <div class="col-md-4">
+          <h3>Search for User</h3>
           <form id="username-search-form">
             <div class="form-group">
               <label>
@@ -23,17 +23,25 @@
           </form>
           <p id="no-results-for-username"></p>
         </div>
+        <div class="col-md-8">
+          <h3 id="display-username"></h3>
+        </div>
+
+
+
       </div>
     </div>
+
     <div id="search-result-section" class="container">
       <div class="row">
         <div class="col-md-12">
-          <h3><span id="displayed-username"></h3>
+          <h3 id="repo-count"></h3>
           <ul class="list-group">
 
           </ul>
         </div>
       </div>
     </div>
+
   </body>
 </html>

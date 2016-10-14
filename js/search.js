@@ -6,10 +6,11 @@ function Search(){
 Search.prototype.getUser = function(username){
   $.get('https://api.github.com/users/' + username + '?access_token=' + apiKey).then(function(response){
     console.log(response);
-    $('#displayed-username').text(" " + response.login + " - " + response.public_repos + " results");
+    $('#display-username').text(response.login);
+    $('#repo-count').text(response.public_repos + " public repositories");
     $('#no-results-for-username').text("");
   }).fail(function(error){
-    alert("This username does not exist");
+    $('#display-username').text("");
     $('#no-results-for-username').text("User " + error.responseJSON.message);
     $('#search-result-section').hide();
   });
@@ -22,7 +23,7 @@ Search.prototype.getRepos = function(username){
     $(".list-group").text("");
     $('#username').val("");
     for (var repo = 0; repo < response.length; repo++){
-      $(".list-group").append("<li class='list-group-item'>" + response[repo].name + "</li>");
+      $(".list-group").append("<li class='list-group-item'>" + response[repo].name + " - " + response[repo].description + "</li>");
     }
 
   $('#search-result-section').show();
