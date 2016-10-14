@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Open Weather Map</title>
+  </head>
+  <body>
+    <div id="search-interface" class="container">
+      <h1>GitHub API</h1>
+      <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Search by Username:</h3>
+          <form id="username-search-form">
+            <div class="form-group">
+              <label>
+                  <input id="username" class="form-control" type="text" placeholder="Enter Username" required>
+              </label>
+              <button class="btn btn-default" id="submit-search" type="submit">Search</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="search-result" class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Search Result:</h3>
+          <div>
+            <h4 id="displayed-search-result"></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
