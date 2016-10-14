@@ -11,6 +11,6 @@ $(document).ready(function(){
   $('#username-search-form').submit(function(event){
     event.preventDefault();
     var username = $('#username').val();
-    currentSearch.getRepos(username);
+    currentSearch.getUser(username);
   }); // end submit
 }); //end ready
