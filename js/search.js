@@ -27,7 +27,6 @@ Search.prototype.getRepos = function(username){
       $(".display-results").append("<tr><td><a href='" + response[repo].html_url + "'target='_blank'>" + response[repo].name + "</a></td><td>" + response[repo].description + "</td><td>" + response[repo].language + "</td></tr>");
     }
 
-
   $('#search-result-section').show();
 
   }).fail(function(error){

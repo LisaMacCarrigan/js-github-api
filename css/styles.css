@@ -5,3 +5,15 @@
 #user-avatar {
   height: 150px;
 }
+
+#display-username {
+  float: left;
+}
+
+#search-interface {
+  margin-top: 110px;
+}
+
+#app-title {
+  color: #ffffff;
+}
