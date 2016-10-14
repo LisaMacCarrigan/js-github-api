@@ -23,7 +23,9 @@ Search.prototype.getRepos = function(username){
     $(".list-group").text("");
     $('#username').val("");
     for (var repo = 0; repo < response.length; repo++){
-      $(".list-group").append("<li class='list-group-item'>" + response[repo].name + " - " + response[repo].description + "</li>");
+      $(".display-result").append("<tr><td>" + response[repo].name + "</td><td>" + response[repo].description + "</td><td>" + response[repo].created_at + "</td></tr>");
+
+      // $(".list-group").append("<li class='list-group-item'>" + response[repo].name + " - " + response[repo].description + "</li>");
     }
 
   $('#search-result-section').show();
