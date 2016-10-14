@@ -12,5 +12,6 @@ $(document).ready(function(){
     event.preventDefault();
     var username = $('#username').val();
     currentSearch.getUser(username);
+    currentSearch.getRepos(username);
   }); // end submit
 }); //end ready
