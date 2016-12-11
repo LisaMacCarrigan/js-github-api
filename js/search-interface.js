@@ -1,9 +1,5 @@
 var Search = require('./../js/search.js').searchModule;
 
-// var displaySearchResults = function(repoData){
-//   $('#displayed-search-result').text(repoData);
-// };
-
 //  ========================== Search =========================== //
 
 $(document).ready(function(){
