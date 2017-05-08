@@ -24,6 +24,11 @@ If editing:
 * Clone this repository: https://github.com/LisaMacCarrigan/js-github-api.git
 * OPEN project folder ('js-github-api') in Code Editor of choice
 
+To view:
+* npm install
+* bower install
+* gulp build | gulp build --production
+* gulp serve
 
 ----
 
